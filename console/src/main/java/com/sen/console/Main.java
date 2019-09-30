@@ -1,5 +1,9 @@
-package com.sen;
+package com.sen.console;
 
+import com.sen.AppConfig;
+import com.sen.Game;
+import com.sen.MessageGenerator;
+import com.sen.NumberGenerator;
 import org.apache.log4j.Logger;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
