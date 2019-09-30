@@ -1,6 +1,6 @@
 package com.sen.console;
 
-import com.sen.AppConfig;
+import com.sen.config.AppConfig;
 import com.sen.Game;
 import com.sen.MessageGenerator;
 import com.sen.NumberGenerator;
