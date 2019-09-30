@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.annotation.PostConstruct;
 import org.springframework.stereotype.Component;
 
-@Component
 public class GameImpl implements Game {
 
     // == constants ==
