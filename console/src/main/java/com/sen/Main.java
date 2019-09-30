@@ -9,8 +9,6 @@ public class Main {
 
     private static final Logger log = Logger.getLogger(Main.class);
 
-    private static final String CONFIG_LOCATION = "beans.xml";
-
     public static void main(String[] args) {
 
         // create context (container)
@@ -32,6 +30,10 @@ public class Main {
 
         // call reset method
         game.reset();
+
+        MessageGenerator messageGenerator = context.getBean(MessageGenerator.class);
+        log.info(messageGenerator.getMainMessage());
+        log.info(messageGenerator.getResultMessage());
 
         // close context (container)
         context.close();
